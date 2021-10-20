@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3727418427178A6F00CB3D42 /* GraphEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3727418327178A6F00CB3D42 /* GraphEditorApp.swift */; };
+		3727418627178A6F00CB3D42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3727418527178A6F00CB3D42 /* ContentView.swift */; };
+		3727418827178A7000CB3D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3727418727178A7000CB3D42 /* Assets.xcassets */; };
+		3727418B27178A7000CB3D42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3727418A27178A7000CB3D42 /* Preview Assets.xcassets */; };
+		3727419727178A7000CB3D42 /* GraphEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3727419627178A7000CB3D42 /* GraphEditorTests.swift */; };
+		372741A227178A7100CB3D42 /* GraphEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372741A127178A7100CB3D42 /* GraphEditorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3727419327178A7000CB3D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3727417827178A6F00CB3D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3727417F27178A6F00CB3D42;
+			remoteInfo = GraphEditor;
+		};
+		3727419E27178A7000CB3D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3727417827178A6F00CB3D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3727417F27178A6F00CB3D42;
+			remoteInfo = GraphEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3727418027178A6F00CB3D42 /* GraphEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3727418327178A6F00CB3D42 /* GraphEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphEditorApp.swift; sourceTree = "<group>"; };
+		3727418527178A6F00CB3D42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3727418727178A7000CB3D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3727418A27178A7000CB3D42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3727418C27178A7000CB3D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3727418D27178A7000CB3D42 /* GraphEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GraphEditor.entitlements; sourceTree = "<group>"; };
+		3727419227178A7000CB3D42 /* GraphEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3727419627178A7000CB3D42 /* GraphEditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphEditorTests.swift; sourceTree = "<group>"; };
+		3727419827178A7000CB3D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3727419D27178A7000CB3D42 /* GraphEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		372741A127178A7100CB3D42 /* GraphEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphEditorUITests.swift; sourceTree = "<group>"; };
+		372741A327178A7100CB3D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3727417D27178A6F00CB3D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3727418F27178A7000CB3D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3727419A27178A7000CB3D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3727417727178A6F00CB3D42 = {
+			isa = PBXGroup;
+			children = (
+				3727418227178A6F00CB3D42 /* GraphEditor */,
+				3727419527178A7000CB3D42 /* GraphEditorTests */,
+				372741A027178A7100CB3D42 /* GraphEditorUITests */,
+				3727418127178A6F00CB3D42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3727418127178A6F00CB3D42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3727418027178A6F00CB3D42 /* GraphEditor.app */,
+				3727419227178A7000CB3D42 /* GraphEditorTests.xctest */,
+				3727419D27178A7000CB3D42 /* GraphEditorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3727418227178A6F00CB3D42 /* GraphEditor */ = {
+			isa = PBXGroup;
+			children = (
+				3727418327178A6F00CB3D42 /* GraphEditorApp.swift */,
+				3727418527178A6F00CB3D42 /* ContentView.swift */,
+				3727418727178A7000CB3D42 /* Assets.xcassets */,
+				3727418C27178A7000CB3D42 /* Info.plist */,
+				3727418D27178A7000CB3D42 /* GraphEditor.entitlements */,
+				3727418927178A7000CB3D42 /* Preview Content */,
+			);
+			path = GraphEditor;
+			sourceTree = "<group>";
+		};
+		3727418927178A7000CB3D42 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3727418A27178A7000CB3D42 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3727419527178A7000CB3D42 /* GraphEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3727419627178A7000CB3D42 /* GraphEditorTests.swift */,
+				3727419827178A7000CB3D42 /* Info.plist */,
+			);
+			path = GraphEditorTests;
+			sourceTree = "<group>";
+		};
+		372741A027178A7100CB3D42 /* GraphEditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				372741A127178A7100CB3D42 /* GraphEditorUITests.swift */,
+				372741A327178A7100CB3D42 /* Info.plist */,
+			);
+			path = GraphEditorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3727417F27178A6F00CB3D42 /* GraphEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372741A627178A7100CB3D42 /* Build configuration list for PBXNativeTarget "GraphEditor" */;
+			buildPhases = (
+				3727417C27178A6F00CB3D42 /* Sources */,
+				3727417D27178A6F00CB3D42 /* Frameworks */,
+				3727417E27178A6F00CB3D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphEditor;
+			productName = GraphEditor;
+			productReference = 3727418027178A6F00CB3D42 /* GraphEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3727419127178A7000CB3D42 /* GraphEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372741A927178A7100CB3D42 /* Build configuration list for PBXNativeTarget "GraphEditorTests" */;
+			buildPhases = (
+				3727418E27178A7000CB3D42 /* Sources */,
+				3727418F27178A7000CB3D42 /* Frameworks */,
+				3727419027178A7000CB3D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3727419427178A7000CB3D42 /* PBXTargetDependency */,
+			);
+			name = GraphEditorTests;
+			productName = GraphEditorTests;
+			productReference = 3727419227178A7000CB3D42 /* GraphEditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3727419C27178A7000CB3D42 /* GraphEditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372741AC27178A7100CB3D42 /* Build configuration list for PBXNativeTarget "GraphEditorUITests" */;
+			buildPhases = (
+				3727419927178A7000CB3D42 /* Sources */,
+				3727419A27178A7000CB3D42 /* Frameworks */,
+				3727419B27178A7000CB3D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3727419F27178A7000CB3D42 /* PBXTargetDependency */,
+			);
+			name = GraphEditorUITests;
+			productName = GraphEditorUITests;
+			productReference = 3727419D27178A7000CB3D42 /* GraphEditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3727417827178A6F00CB3D42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3727417F27178A6F00CB3D42 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					3727419127178A7000CB3D42 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3727417F27178A6F00CB3D42;
+					};
+					3727419C27178A7000CB3D42 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3727417F27178A6F00CB3D42;
+					};
+				};
+			};
+			buildConfigurationList = 3727417B27178A6F00CB3D42 /* Build configuration list for PBXProject "GraphEditor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3727417727178A6F00CB3D42;
+			productRefGroup = 3727418127178A6F00CB3D42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3727417F27178A6F00CB3D42 /* GraphEditor */,
+				3727419127178A7000CB3D42 /* GraphEditorTests */,
+				3727419C27178A7000CB3D42 /* GraphEditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3727417E27178A6F00CB3D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3727418B27178A7000CB3D42 /* Preview Assets.xcassets in Resources */,
+				3727418827178A7000CB3D42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3727419027178A7000CB3D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3727419B27178A7000CB3D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3727417C27178A6F00CB3D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3727418627178A6F00CB3D42 /* ContentView.swift in Sources */,
+				3727418427178A6F00CB3D42 /* GraphEditorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3727418E27178A7000CB3D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3727419727178A7000CB3D42 /* GraphEditorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3727419927178A7000CB3D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372741A227178A7100CB3D42 /* GraphEditorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3727419427178A7000CB3D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3727417F27178A6F00CB3D42 /* GraphEditor */;
+			targetProxy = 3727419327178A7000CB3D42 /* PBXContainerItemProxy */;
+		};
+		3727419F27178A7000CB3D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3727417F27178A6F00CB3D42 /* GraphEditor */;
+			targetProxy = 3727419E27178A7000CB3D42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		372741A427178A7100CB3D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		372741A527178A7100CB3D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		372741A727178A7100CB3D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GraphEditor/GraphEditor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"GraphEditor/Preview Content\"";
+				DEVELOPMENT_TEAM = JL8K7LH7KS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GraphEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngrid.ngrid.GraphEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		372741A827178A7100CB3D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GraphEditor/GraphEditor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"GraphEditor/Preview Content\"";
+				DEVELOPMENT_TEAM = JL8K7LH7KS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GraphEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngrid.ngrid.GraphEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		372741AA27178A7100CB3D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JL8K7LH7KS;
+				INFOPLIST_FILE = GraphEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngrid.ngrid.GraphEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphEditor.app/Contents/MacOS/GraphEditor";
+			};
+			name = Debug;
+		};
+		372741AB27178A7100CB3D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JL8K7LH7KS;
+				INFOPLIST_FILE = GraphEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngrid.ngrid.GraphEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GraphEditor.app/Contents/MacOS/GraphEditor";
+			};
+			name = Release;
+		};
+		372741AD27178A7100CB3D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JL8K7LH7KS;
+				INFOPLIST_FILE = GraphEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngrid.ngrid.GraphEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GraphEditor;
+			};
+			name = Debug;
+		};
+		372741AE27178A7100CB3D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JL8K7LH7KS;
+				INFOPLIST_FILE = GraphEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngrid.ngrid.GraphEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GraphEditor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3727417B27178A6F00CB3D42 /* Build configuration list for PBXProject "GraphEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372741A427178A7100CB3D42 /* Debug */,
+				372741A527178A7100CB3D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372741A627178A7100CB3D42 /* Build configuration list for PBXNativeTarget "GraphEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372741A727178A7100CB3D42 /* Debug */,
+				372741A827178A7100CB3D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372741A927178A7100CB3D42 /* Build configuration list for PBXNativeTarget "GraphEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372741AA27178A7100CB3D42 /* Debug */,
+				372741AB27178A7100CB3D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372741AC27178A7100CB3D42 /* Build configuration list for PBXNativeTarget "GraphEditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372741AD27178A7100CB3D42 /* Debug */,
+				372741AE27178A7100CB3D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3727417827178A6F00CB3D42 /* Project object */;
+}
